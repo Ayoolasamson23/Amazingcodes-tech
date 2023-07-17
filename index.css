@@ -12,7 +12,7 @@ body {
 @media (max-width:767px){
   body {
     align-items: center;
-    flex-direction: column;
+    flex-direction:  column;
   }
 }
 @media (min-width:768px) and (max-width: 1023px) {
@@ -36,6 +36,7 @@ header{
   border-radius:20px;
   background:transparent;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) ;
+ -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 
  }
@@ -50,6 +51,7 @@ header{
   border-radius: 15px;
   background:violet;
   margin: 20px auto;
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   align-items: center;
@@ -90,7 +92,8 @@ header{
 
 
  .wrapper {
-
+  width: 91%;
+  max-width: 680px;
   margin: 12px;
   display: flex;
   flex-direction: column;
@@ -142,6 +145,7 @@ header{
   border-radius: 17px;
   background: transparent;
   border: 2px solid rgba(15, 15, 15, 0.5);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 30px #4747474d;
   display: flex;
@@ -176,9 +180,16 @@ header{
   align-items: center;
   color: ivory;
 }
+.icon-one {
+  fill: ivory;
+}
+.bibi-whatsapp {
+  fill: ivory;
+}
 .tile-image {
   width: 25px;
   border-radius: 12.5px;
+  border: 2px, solid, rgba(255, 255, 240, 0.404);
   overflow: hidden;
 
 }
